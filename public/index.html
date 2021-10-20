@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Url Shortener</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+      <h1>Url shortener</h1>
+      <div class="form-container">
+        <form>
+            <input class="input-url" style="margin: 16px;" type="text" placeholder="Enter the url where link will be redirected to">
+            <br>
+            <input class="input-url-identifier" style="margin: 16px;" type="text" placeholder="An optional identifier for the url">
+            <br>
+            <input class="button-create" style="margin: 16px;" id="create-button" type="button" value="Create URL"> 
+        </form>
+          <br>
+        <p class="display-url" style="margin: 16px;"></p>
+      </div>
+  </body>
 </html>
